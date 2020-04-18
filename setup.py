@@ -5,17 +5,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PyDX-DevWorks8",  # Replace with your own username
-    version="0.0.1",
+    version="1.0.0",
     author="Christian Lachapelle",
     author_email="devworks8@gmail.com",
     description="Flatten and inflate a dictionary",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Devworks8/PyDX.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU GPLv3 License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
